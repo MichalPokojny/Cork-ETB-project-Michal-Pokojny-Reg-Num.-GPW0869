@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+.banner {
+    height: 400px;
+    background: url(../images/dublin-main.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.logo {
+    font-family: Lato, sans-serif;
+    font-size: 250%;
+    margin: 0 auto;
+    color: #000;
+}
+
+.logo:hover {
+    text-decoration: none;
+}
+
+.nav {
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+}
+
+.nav-item {
+    width: 10%;
+    height: 10%;
+    display: inline-block;
+    margin:0;
+}
+
+.menucontainter{
+    font-size: 150%;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+}
+
+.menuitem a i {
+    padding-top: 20px;
+    display: block;
+    color: rgb(250, 250, 250);
+    font-size: 20px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
