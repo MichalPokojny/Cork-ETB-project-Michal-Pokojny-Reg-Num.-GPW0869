@@ -7,6 +7,19 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
+    animation: fadeIn 8s;
+}
+
+@keyframes fadeIn {
+
+	/*Main image banner fade in effect*/
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
 
 
