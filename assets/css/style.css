@@ -1,6 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
+/* ----------Colors---------- */
+
+.ui-menu-color-portfolio-1 {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-portfolio-2 {
+    background-color: #4a81f8;
+}
+
+/* ----------Special paddings/margins---------- */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+/* ----------Heading---------- */
+
 .banner {
     height: 400px;
     background: url(../images/dublin-main.png);
@@ -9,6 +37,8 @@
     background-size:cover;
     animation: zoomIn 5s;
 }
+
+/* Banner zoom in effect */
 
 @keyframes zoomIn {
 
@@ -24,11 +54,6 @@
 	100% {
 		transform: scale(1, 1);
 	}
-}
-
-
-.uppercase {
-    text-transform: uppercase;
 }
 
 .logo {
@@ -64,16 +89,11 @@
     height: 100px;
     text-align: center;
     padding: 0;
+    margin: -0.5px;
 }
 
-.hvr-sweep-to-bottom:before {
-    background-color: rgba(0, 0, 0, 0.2);
-    height: 100px;
-}
-
-.hvr-sweep-to-top:before {
-    background-color: rgba(0, 0, 0, 0.2);
-    height: 100px;
+.list-inline-item:not(:last-child) {
+    margin: 0;
 }
 
 .menuitem a {
@@ -100,18 +120,19 @@
     letter-spacing: 2px;
 }
 
-.ui-menu-color-portfolio-1 {
-    background-color: #e67e22;
+/* ----------Hover effects---------- */
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100px;
 }
 
-.ui-menu-color-portfolio-2 {
-    background-color: #4a81f8;
+.hvr-sweep-to-top:before {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100px;
 }
 
-h1,h2,h3,h4 {
-    margin: 0;
-    color: #000;
-}
+/* ----------Body---------- */
 
 .text-info{
     text-align: center;
@@ -120,6 +141,8 @@ h1,h2,h3,h4 {
     color: #000 !important;
     padding-bottom: 10px;
 }
+
+/* ----------Footer---------- */
 
 footer {
     background-color: #525252;
@@ -130,9 +153,6 @@ footer {
     padding-top: 25px;
 }
 
-.social-links {
-    padding-bottom: 15px;
-}
 
 .social-links li a i {
     width: 32px;
@@ -152,10 +172,5 @@ footer {
 
 .social-links li a i:hover {
     background: #e84610;
-}
-
-.general-sub {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
+    margin: 0;
 }
