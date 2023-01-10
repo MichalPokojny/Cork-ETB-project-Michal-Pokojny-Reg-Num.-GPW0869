@@ -50,9 +50,15 @@
             <div class="col">
                <h3 class="uppercase text-center text-heading">Contact us for more information!</h3>
                <div class="center-form">
-                  <form id="myForm">
+                  <form onsubmit="return sendMail(this);" id="myForm">
                      <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                     <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                     <input type="text" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email" required />
+                     <textarea rows="5" name="infoenquiry" id="infoenquiry" class="form-control" placeholder="Please state your enquiry here." required></textarea>
+                     <div class="form-row text-center">
+                        <div class="col">
+                           <button type="submit" class="btn btn-secondary submit-button">Send Email Enquiry</button>
+                        </div>
+                     </div>
                   </form>
                </div>
             </div>

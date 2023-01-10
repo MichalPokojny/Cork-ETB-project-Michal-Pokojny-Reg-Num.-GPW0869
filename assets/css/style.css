@@ -237,3 +237,15 @@ footer {
     width: 850px;
     height: 650px;
 }
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 75%;
+}
+
+.submit-button {
+    margin: 20px 0 20px;
+    color: #fff;
+    background-color: #4a81f8;
+}
