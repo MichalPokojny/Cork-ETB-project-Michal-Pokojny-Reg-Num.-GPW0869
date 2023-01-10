@@ -216,6 +216,7 @@ footer {
     font-family: Exo, sans-serif;
     font-size: 150%;
     padding: 20px 0 30px;
+    margin-top: 30px;
 }
 
 .resturant-text {
@@ -224,4 +225,15 @@ footer {
     width: 400px;
     height: 250px;
     margin:25px auto;
+}
+
+#chapter-one, #locks, #marker, #seasons, #saddle {
+    width: 800px;
+    height: 600px;
+    transition: width 2s, height 2s;
+}
+
+#chapter-one:hover, #locks:hover, #marker:hover, #seasons:hover, #saddle:hover {
+    width: 850px;
+    height: 650px;
 }
