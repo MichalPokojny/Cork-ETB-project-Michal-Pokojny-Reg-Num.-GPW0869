@@ -122,12 +122,12 @@ h1,h2,h3,h4 {
 
 /* ----------Hover effects---------- */
 
-.hvr-sweep-to-bottom:before {
+.hvr-sweep-to-right:before {
     background-color: rgba(0, 0, 0, 0.2);
     height: 100px;
 }
 
-.hvr-sweep-to-top:before {
+.hvr-sweep-to-left:before {
     background-color: rgba(0, 0, 0, 0.2);
     height: 100px;
 }
