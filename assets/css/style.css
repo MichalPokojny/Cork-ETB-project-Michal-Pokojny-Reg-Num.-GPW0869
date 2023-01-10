@@ -110,21 +110,24 @@
 
 h1,h2,h3,h4 {
     margin: 0;
+    color: #000;
 }
 
 .text-info{
     text-align: center;
     font-family: Lato, sans-serif;
-    font-size: 190%;
+    font-size: 200%;
+    color: #000 !important;
+    padding-bottom: 10px;
 }
 
 footer {
     background-color: #525252;
     color: #fafafa;
-    min-height: 120px;
+    height: 120px;
     margin: 0;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .social-links {
@@ -151,6 +154,8 @@ footer {
     background: #e84610;
 }
 
-#footer-details {
-    padding: 20px;
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
 }
