@@ -249,3 +249,15 @@ footer {
     color: #fff;
     background-color: #4a81f8;
 }
+
+.location-button {
+    margin: 0 auto;
+    color: #fff;
+    background-color: #4a81f8;
+}
+
+#result {
+    margin: 20px;
+    font-family: Lato,sans-serif;
+    font-weight: bold;
+}
