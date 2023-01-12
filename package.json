@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@emailjs/browser": "^3.10.0"
+    "@emailjs/browser": "^3.10.0",
+    "haversine-distance": "^1.2.1"
   }
 }
