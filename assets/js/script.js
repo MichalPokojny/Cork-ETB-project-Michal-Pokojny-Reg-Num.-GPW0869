@@ -41,6 +41,7 @@ function clicked () {
 
 //  Function for calculating distance from user to Dublin implementing haversine method
 
+
 function getDistance() {
   if(navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(function(position) {
