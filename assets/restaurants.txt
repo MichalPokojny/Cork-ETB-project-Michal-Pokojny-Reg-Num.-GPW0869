@@ -1,20 +1,21 @@
     <li>
-        <h4 class="text-center uppercase">Bon Appetite</h4><br>
+        <h4 class="text-center uppercase">Bon Appetite</h4>
         <p class="text-center">Type of Cuisine: Irish / European / International / Modern Cuisine</p>
       </li>
      <li>
-      <h4 class="text-center uppercase">Bon Appetite</h4><br>
-      <p class="text-center">Type of Cuisine: Irish / European / International / Modern Cuisine</p>
+      <h4 class="text-center uppercase">Pearl Brasserie</h4>
+      <p class="text-center">Type of Cuisine: Modern French</p>
     </li>
     <li>
-        <h4 class="text-center uppercase">Bon Appetite</h4><br>
-        <p class="text-center">Type of Cuisine: Irish / European / International / Modern Cuisine</p>
+        <h4 class="text-center uppercase">Dax</h4>
+        <p class="text-center">Type of Cuisine: Irish / International / Modern Cuisine</p>
       </li>
       <li>
-        <h4 class="text-center uppercase">Bon Appetite</h4><br>
-        <p class="text-center">Type of Cuisine: Irish / European / International / Modern Cuisine</p>
+        <h4 class="text-center uppercase">FIRE Steakhouse & Bar</h4>
+        <p class="text-center">Type of Cuisine: Steakhouse / Irish / European</p>
       </li>
      <li>
-        <h4 class="text-center uppercase">Bon Appetite</h4><br>
-        <p class="text-center">Type of Cuisine: Irish / European / International / Modern Cuisine</p>
+        <h4 class="text-center uppercase">
+One Pico</h4>
+        <p class="text-center">Type of Cuisine: Modern Cuisine / Irish / French</p>
       </li>
