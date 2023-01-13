@@ -8,6 +8,8 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
       <link rel="stylesheet" href="css/style.css" type="text/css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+      
       <title>Portfolio 1 / Portfolio 2 Reg. Num. GPW0869</title>
    </head>
    <body>
@@ -48,80 +50,30 @@
       <section>
          <div class="row">
             <div class="col">
-               <h1 class="text-heading">Something to know about Dublin</h1>
+               <h1 class="text-heading">Events in Dublin</h1>
             </div>
          </div>
          <div class="row">
-            <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-               <div class="row">
-                  <div class="col-2">
-                     <i class="info-text-icon fa-solid fa-monument" aria-hidden="true"></i>
-                  </div>
-                  <div class="col-10">
-                     <h4 class="info-text-heading uppercase">History</h4>
-                     <p class="facts">
-                        The area of Dublin Bay has been inhabited by humans since prehistoric times, 
-                        fish traps discovered from excavations during the construction of the Convention 
-                        Centre Dublin indicate human habitation as far back as 6,000 years ago while further 
-                        traps were also discovered closer to the old settlement of the city of Dublin on the south quays near 
-                        St. James's Gate which also indicate mesolithic human activity.
-                     </p>
-                  </div>
+            <div class="col-md-10 offset-md-1">
+               <div class="events-text">
+                  <p>
+                     Dublin's cobblestone streets, bars, cafes, art galleries and architectural
+                      wonders in combination with old streetscapes are going to mesmerize you. 
+                      Its culture, its monuments, its heritage is more than enough to captivate 
+                      you. Main events of the city are related to arts, theatre, music, movies 
+                      and exhibitions.<br>
+                  </p>         
                </div>
             </div>
-            <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-               <div class="row">
-                  <div class="col-2">
-                     <i class="info-text-icon fa-solid fa-children" aria-hidden="true"></i>
-                  </div>
-                  <div class="col-10">
-                     <h4 class="info-text-heading uppercase">Population</h4>
-                     <p class="facts">
-                        The City of Dublin is the area administered by Dublin City Council. 
-                        The term "Dublin" is also used to the traditional County Dublin 
-                        (the Dublin Region), which includes the city and the counties of 
-                        Dún Laoghaire, Rathdown, Fingal and South Dublin.The County Dublin 
-                        population was 1,273,069 and that of the Greater Dublin Area 1,904,806. 
-                        The area's population is expanding rapidly, and it was estimated that it 
-                        would reach 2.1 million by 2020.
-                     </p>
-                  </div>
-               </div>
-            </div>
-            <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-               <div class="row">
-                  <div class="col-2">
-                     <i class="info-text-icon fa-solid fa-book-atlas" aria-hidden="true"></i>
-                  </div>
-                  <div class="col-10">
-                     <h4 class="info-text-heading uppercase">Geography</h4>
-                     <p class="facts">
-                        Dublin is situated at the mouth of the River Liffey and encompasses a 
-                        land area of approximately 117.8 square kilometres (45.5 sq mi) in 
-                        east-central Ireland. It is bordered by the Dublin Mountains, a low 
-                        mountain range and sub range of the Wicklow Mountains, to the south 
-                        and surrounded by flat farmland to the north and west.
-                     </p>
-                  </div>
-               </div>
-            </div>
-            <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
-               <div class="row">
-                  <div class="col-2">
-                     <i class="info-text-icon fa-solid fa-mask" aria-hidden="true"></i>
-                  </div>
-                  <div class="col-10">
-                     <h4 class="info-text-heading uppercase">Entertainment</h4>
-                     <p class="facts">
-                        Dublin has a vibrant nightlife and is reputedly one of Europe's 
-                        most youthful cities, with an estimate of 50% of citizens being 
-                        younger than 25. There are many pubs across the city centre, with 
-                        the area around St. Stephen's Green and Grafton Street, especially 
-                        Harcourt Street, Camden Street, Wexford Street and Leeson Street, 
-                        the location of many nightclubs and pubs.
-                     </p>
-                  </div>
-               </div>
+         </div>
+         <div class="row">
+            <div class="col-md-10 offset-md-1 text-center">
+               <i>
+                  To see events happening in Dublin click down below.
+               </i>
+               <button type="button" class="btn btn-secondary eventsBtn d-block" onclick="loadXMLDoc()">Click here</button>
+               <ul id="div1" class="text-center" style="list-style: none;">
+               </ul>
             </div>
          </div>
       </section>
@@ -149,5 +101,13 @@
          </div>
       </footer>
       <script src="https://kit.fontawesome.com/5a006fcb56.js" crossorigin="anonymous"></script>
+      <script>
+      // jQuery ajax() request method implemented to events.html
+
+         $("button.eventsBtn").click(function(){
+            $.ajax({url: "events.txt", success: function(result){
+               $("#div1").html(result);
+           }});
+         });</script>
    </body>
 </html>

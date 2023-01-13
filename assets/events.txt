@@ -1,0 +1,48 @@
+    <li>
+        <h4 class="text-center uppercase">January – New Year’s Festival Dublin</h4>
+        <p class="text-center">Okay, so this one starts in December – but one night just isn’t enough time to wave goodbye to one year and welcome in another. That’s why this Dublin festival takes place over three days!</p>
+      </li>
+     <li>
+      <h4 class="text-center uppercase">February – Dublin International Film Festival</h4>
+      <p class="text-center">Since 2003, the DIFF has taken pride of place as Ireland’s main film festival. Over two weeks, locals have the opportunity to enjoy thought-provoking, ground-breaking and often award-winning cinema. Plenty of famous faces are on-hand to host events and run Q&As too.</p>
+    </li>
+    <li>
+        <h4 class="text-center uppercase">March – St. Patrick’s Festival</h4>
+        <p class="text-center">It takes five days of festivities to celebrate Ireland’s patron saint. Every March 17th, a sea of green spectators watch as the colourful parade marches through the streets of Dublin. A wide array of musical, artistic and historical events take place throughout the week too.</p>
+      </li>
+      <li>
+        <h4 class="text-center uppercase">April – One Dublin, One Book</h4>
+        <p class="text-center">One of the more unusual events on this list is the One Dublin, One Book festival. During the month of April, it aims to encourage everyone in the city to read one book that has a connection to Dublin.</p>
+      </li>
+     <li>
+        <h4 class="text-center uppercase">May – International Literature Festival</h4>
+        <p class="text-center">There’s a reason Ireland is known as the land of saints and scholars. We’re big readers and the International Literature Festival is a great excuse for locals and visitors alike to delve into books of Irish and international acclaim. Events throughout the festival cover everything from spoken word performances to readings of children’s literature. There’s plenty of workshops and seminars to enjoy too.</p>
+      </li>
+      <li>
+        <h4 class="text-center uppercase">June – Pride</h4>
+        <p class="text-center">Dublin’s yearly LGBTQ+ festival takes place every June. The parade of floats, dancers and members of the community is guaranteed to be full of energy and colour. This festival of togetherness shows Dublin in its best light.</p>
+      </li>
+      <li>
+        <h4 class="text-center uppercase">June – Bloomsday</h4>
+        <p class="text-center">Fans of James Joyce will know that his seminal work, Ulysses, takes place on June 16th, 1904. Ever since, people have gathered in Dublin on this day to celebrate Joyce and his book’s main character Leopold Bloom.</p>
+      </li>
+      <li>
+        <h4 class="text-center uppercase">July – All-Ireland Senior Championships</h4>
+        <p class="text-center">Ireland’s national sports – hurling, camogie and Gaelic football – culminate earlier this year. After two disrupted years, capacity crowds will return to Croke Park. We can’t wait. If you’re new to Irish sport, check out our introduction to Gaelic games.</p>
+      </li>
+      <li>
+        <h4 class="text-center uppercase">September – Taste of Dublin</h4>
+        <p class="text-center">The Taste of Dublin festival takes over Dublin’s scenic Iveagh Gardens in early September. Each year, the park is filled with food, flavour and fun. 2021 was a welcome return for gastronomic delights.</p>
+      </li>
+      <li>
+        <h4 class="text-center uppercase">October – Bram Stoker Festival</h4>
+        <p class="text-center">Bram Stoker, the creator of Dracula, was born in Dublin back in 1847. His legacy is remembered here every year with a series of ghoulishly gothic events. Do you dare to book a ticket?</p>
+      </li>
+      <li>
+        <h4 class="text-center uppercase">November – Dublin Book Festival</h4>
+        <p class="text-center">Now in its 15th year, the Dublin Book Festival is a celebration of all things related to literature and lore. It’s the perfect festival for a UNESCO City of Literature. Each November, locals and visitors to the city can attend exhibitions, events, talks, tours and readings – many of which are free of charge.</p>
+      </li>
+      <li>
+        <h4 class="text-center uppercase">December – Winter Lights & Christmas markets</h4>
+        <p class="text-center">Every year, Dublin’s atmospheric Winter Lights spectacular introduces the festive season with a bang! The warm glowing lights ensure that the city gets into the yuletide spirit.</p>
+      </li>

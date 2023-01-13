@@ -31,6 +31,8 @@
     seasons.innerHTML = "My rating of this restaurant: 8/10";
  }
 
+// XML http request to get list of data to food.html from restaurants.txt
+ 
 function loadXMLDoc() {
  var xhttpReq = new XMLHttpRequest();
  
@@ -45,3 +47,5 @@ function loadXMLDoc() {
  xhttpReq.send();
 
 }
+
+

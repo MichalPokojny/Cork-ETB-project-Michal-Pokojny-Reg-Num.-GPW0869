@@ -230,6 +230,7 @@ footer {
     width: 400px;
     height: 250px;
     margin:25px auto;
+    
 }
 
 .resturant-list-text {
@@ -430,4 +431,16 @@ footer {
     color: #fff;
     background-color: #4a81f8;
     font-size: 1.4em;
+}
+
+
+
+.events-text {
+    font-family: Roboto, sans-serif;
+}
+
+.eventsBtn {
+    margin: 25px auto;
+    color: #fff;
+    background-color: #e67e22;
 }
