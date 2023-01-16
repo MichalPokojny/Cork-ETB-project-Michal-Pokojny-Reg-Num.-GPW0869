@@ -151,12 +151,30 @@ h1,h2,h3,h4 {
 footer {
     background-color: #525252;
     color: #fafafa;
-    height: 120px;
+    height: 135px;
     margin: 0;
     text-align: center;
     padding-top: 25px;
 }
 
+@media only screen and (max-width: 760px) {
+    footer {
+        height: 195px;
+    }
+}
+
+#dom-time {
+    opacity: 0.5;
+    color: #fafafa;
+    float: left;
+}
+
+#author {
+    opacity: 0.5;
+    color: #fafafa;
+    float: right;
+    padding-right: 10px;
+}
 
 .social-links li a i {
     width: 32px;

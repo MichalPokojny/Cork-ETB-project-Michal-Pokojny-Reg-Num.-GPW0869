@@ -72,7 +72,7 @@
                   To see events happening in Dublin click down below.
                </i>
                <button type="button" class="btn btn-secondary eventsBtn d-block" onclick="loadXMLDoc()">Click here</button>
-               <ul id="div1" class="text-center" style="list-style: none;">
+               <ul id="events" class="text-center" style="list-style: none;">
                </ul>
             </div>
          </div>
@@ -106,7 +106,7 @@
 
          $("button.eventsBtn").click(function(){
             $.ajax({url: "events.txt", success: function(result){
-               $("#div1").html(result);
+               $("#events").html(result);
            }});
          });</script>
    </body>

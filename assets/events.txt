@@ -1,4 +1,4 @@
-    <li>
+    <li">
         <h4 class="text-center uppercase">January – New Year’s Festival Dublin</h4>
         <p class="text-center">Okay, so this one starts in December – but one night just isn’t enough time to wave goodbye to one year and welcome in another. That’s why this Dublin festival takes place over three days!</p>
       </li>

@@ -148,6 +148,20 @@
             </div>
          </div>
       </footer>
+      
+      <script>
+         const socket = new WebSocket('ws://localhost:8080');
+         socket.addEventListener('error', (event) => {
+  console.log('WebSocket error: ', event);
+});
+         socket.onmessage = ({ data }) => {
+            console.log("Message from server ", data)
+         };
+
+         document.onload = () => {
+            socket.send("Hello.")
+         }
+      </script>
       <script src="https://kit.fontawesome.com/5a006fcb56.js" crossorigin="anonymous"></script>
    </body>
 </html>
