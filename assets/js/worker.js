@@ -14,6 +14,6 @@ var seconds = 0;
     
     var updSecond = seconds - (hour * 3600 + minute * 60);
     
-  postMessage('Time spent on this page: ' + hour + ' h:' + minute + '  m:' + updSecond +"  s");
+  postMessage('Time spent on this page: ' + hour + ' h: ' + minute + '  m: ' + updSecond +"  s");
 }
 

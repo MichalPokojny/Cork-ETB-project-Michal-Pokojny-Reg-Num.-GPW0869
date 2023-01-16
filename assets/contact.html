@@ -61,7 +61,7 @@
                   <form onsubmit="return sendMail(this);" id="myForm">
                      <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
                      <input type="text" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email" required />
-                     <textarea rows="5" name="infoenquiry" id="infoenquiry" class="form-control" placeholder="Please state your inquiry here." required></textarea>
+                     <textarea rows="5" name="infoenquiry" id="infoenquiry" class="form-control" placeholder="Please state your enquiry here." required></textarea>
                      <div class="form-row text-center">
                         <div class="col">
                            <button type="submit" class="btn btn-secondary submit-button">Send Email</button>
@@ -94,9 +94,17 @@
                </ul>
             </div>
          </div>
+         <div class="row">
+            <div class="col-md-6">
+               <i class="dom-time"></i>
+            </div>
+            <div class="col-md-6">
+               <i id="author">Michal Pokojny</i>
+            </div>
+         </div>
       </footer>
       <script src="https://kit.fontawesome.com/5a006fcb56.js" crossorigin="anonymous"></script>
       <script src="js/sendEmail.js"></script>
-     
+      <script src="js/script.js"></script>
    </body>
 </html>

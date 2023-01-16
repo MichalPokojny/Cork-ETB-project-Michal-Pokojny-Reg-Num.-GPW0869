@@ -54,7 +54,7 @@ const domTime = document.getElementById("dom-time");
 window.addEventListener("load", () => {
 
 const worker = new Worker("js/worker.js");
-worker.postMessage("Calculate  time spent on the webpage");
+worker.postMessage("Add count timer spent on the webpage");
 worker.onmessage = function(e) {
    document.getElementById("dom-time").innerHTML = e.data}
 });
