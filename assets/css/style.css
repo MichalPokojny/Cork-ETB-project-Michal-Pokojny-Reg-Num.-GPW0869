@@ -12,7 +12,7 @@
 }
 
 .ui-menu-color-portfolio-2 {
-    background-color: #4a81f8;
+    background-color: #2ea101;
 }
 
 /* ----------Special paddings/margins---------- */
@@ -280,13 +280,13 @@ footer {
 .submit-button {
     margin: 20px 0 20px;
     color: #fff;
-    background-color: #4a81f8;
+    background-color: #2ea101;
 }
 
 .location-button {
     margin: 0 auto;
     color: #fff;
-    background-color: #4a81f8;
+    background-color: #2ea101;
 }
 
 #result {
@@ -336,7 +336,7 @@ footer {
 .shop-button {
     margin: 15px auto;
     color: #fff;
-    background-color: #4a81f8;
+    background-color: #2ea101;
 }
 
 .cart-header {
@@ -449,7 +449,7 @@ footer {
 .purchase-button {
     margin: 15px auto;
     color: #fff;
-    background-color: #4a81f8;
+    background-color: #2ea101;
     font-size: 1.4em;
 }
 
