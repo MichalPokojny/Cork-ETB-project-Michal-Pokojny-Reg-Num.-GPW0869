@@ -460,7 +460,15 @@ footer {
 
 /* ----------Events page---------- */
 
+ul#events {
+    margin: 0 auto;
+    padding-left: 0 !important;
+    width: 70%;
+}
+
 .events-text {
+    margin: 0 auto;
+    width: 70%;
     font-family: Roboto, sans-serif;
 }
 
