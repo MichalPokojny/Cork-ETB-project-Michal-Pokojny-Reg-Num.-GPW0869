@@ -42,7 +42,7 @@ function loadXMLDoc() {
      }
      
  };
- xhttpReq.open("GET", "restaurants.txt", true);
+ xhttpReq.open("GET", "text-list/restaurants.txt", true);
  xhttpReq.send();
 
 }

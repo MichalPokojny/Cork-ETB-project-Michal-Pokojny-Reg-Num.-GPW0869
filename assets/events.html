@@ -124,7 +124,7 @@
       // jQuery ajax() request method implemented to events.html
       $("button.eventsBtn").click(function() {
         $.ajax({
-          url: "events.txt",
+          url: "text-list/events.txt",
           success: function(result) {
             $("#events").html(result);
           }
