@@ -2,8 +2,8 @@
  * @Mtype HTMLCanvasElement
  */
 
-var canvas = document.getElementById("canvas");
-var ctx = canvas.getContext("2d");
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
 
 ctx.fillStyle = "#e67e22";
 ctx.font = "italic 40px cambria";
