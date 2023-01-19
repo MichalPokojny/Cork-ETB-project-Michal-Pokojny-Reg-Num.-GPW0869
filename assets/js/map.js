@@ -1,4 +1,16 @@
+/**
+ * @Mtype HTMLCanvasElement
+ */
+
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+
+ctx.fillStyle = "#e67e22";
+ctx.font = "italic 40px cambria";
+ctx.fillText("Dublin City Centre", 50, 50); 
+
 //  Map functions
+
 
 //  Function for message before redirect to wikipedia
 
@@ -42,3 +54,4 @@ function haversineDistance (a, b) {
   const ht = hav(bLat - aLat) + Math.cos(aLat) * Math.cos(bLat) * hav(bLng - aLng)
   return 2 * R * Math.asin(Math.sqrt(ht))
 };
+

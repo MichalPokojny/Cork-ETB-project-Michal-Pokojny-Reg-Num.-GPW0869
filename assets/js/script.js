@@ -1,5 +1,4 @@
-// Food.html image transitions functions
-       
+// Food.html image transitions functions    
  document.getElementById("chapter-one").addEventListener("transitionend", textTransition1);
  document.getElementById("marker").addEventListener("transitionend", textTransition2);
  document.getElementById("locks").addEventListener("transitionend", textTransition3);
@@ -58,3 +57,4 @@ worker.postMessage("Add count timer spent on the webpage");
 worker.onmessage = function(e) {
    document.getElementById("dom-time").innerHTML = e.data}
 });
+

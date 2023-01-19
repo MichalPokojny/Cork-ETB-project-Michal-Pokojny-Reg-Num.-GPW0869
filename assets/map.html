@@ -67,14 +67,23 @@
           <h1 class="text-heading">What to see in Dublin?</h1>
         </div>
       </div>
+      <div class="row">
+        <div class="col">
+          <canvas width="400" height="70" id="canvas" class="rounded mx-auto d-block img-fluid"></canvas>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
       <p class="text-center">
         <i>Click on the map to see more info.</i>
       </p>
+        </div>
+      </div>
       <div class="row">
         <div class="col">
           <img src="images/dublin-map.jpg" usemap="#dublinmap" alt="dublin-map" class="rounded mx-auto d-block img-fluid" width="600" height="600">
           <map name="dublinmap">
-            <area shape="rect" coords="0,0,600,600" alt="Computer" href="https://en.wikipedia.org/wiki/Dublin" onclick="clicked()">
+            <area shape="rect" coords="0,0,600,600" alt="Map" href="https://en.wikipedia.org/wiki/Dublin" onclick="clicked()">
           </map>
         </div>
       </div>
@@ -123,7 +132,6 @@
         </div>
       </div>
     </footer>
-    <script src="js/script.js"></script>
     <script src="js/map.js"></script>
     <script src="https://kit.fontawesome.com/5a006fcb56.js" crossorigin="anonymous"></script>
   </body>
