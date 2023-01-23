@@ -159,13 +159,32 @@ footer {
   padding-top: 25px;
 }
 
-/* media query for screen below 760px width */
+/* media query for screen below 760px & 580px width */
 
 @media only screen and (max-width: 760px) {
+
   footer {
     height: 195px;
   }
 }
+
+@media only screen and (max-width: 580px) {
+
+  #chapter-one,
+  #locks,
+  #marker,
+  #seasons,
+  #saddle {
+    width: 350px !important; 
+    height: 350px !important;
+    
+}
+  
+  .banner {
+    display: none;
+  }
+}
+
 
 #dom-time {
   opacity: 0.5;
@@ -220,15 +239,6 @@ footer {
 
 /* ----------Food page---------- */
 
-.restaurant-image {
-  max-width: 100%;
-  max-height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  overflow: hidden;
-  display: inline-block;
-}
 
 .restaurants-text-heading {
   text-align: center;
