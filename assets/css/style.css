@@ -483,8 +483,18 @@ ul#events {
   font-family: Roboto, sans-serif;
 }
 
-.eventsBtn {
+
+.buttonAnimation {
   margin: 25px auto;
-  color: #fff;
+  padding: 12px 24px;
   background-color: #e67e22;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buttonAnimation:hover {
+  background-color: #2ea101;
 }
